@@ -1,3 +1,6 @@
+# The code defines a Tic Tac Toe game with different player classes, including a human player, a
+# random computer player, and a smart computer player that uses the minimax algorithm to make optimal
+# moves.
 import math 
 import random
 

@@ -1,3 +1,8 @@
+# The code snippet is checking whether the input email is valid or not. It does this by verifying
+# several conditions such as the length of the email, the presence of the "@" symbol, the position of
+# the dot in the domain, and the absence of any invalid characters. If any of these conditions are not
+# met, it prints "Invalid Email". Otherwise, it prints "Valid Email".
+
 email = input("Enter your email: ")
 
 if len(email) >= 6:

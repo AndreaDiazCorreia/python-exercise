@@ -1,10 +1,19 @@
+"""
+    The hangman function allows the user to play a game of hangman by guessing letters to uncover a
+    hidden word.
+    
+    :param words: The `words` parameter is a list of words from which the hangman game will randomly
+    choose a word for the player to guess
+    :return: The function `get_valid_word` returns a valid word from the given list of words. The
+    function `hangman` does not return anything.
+    """
+
 import random
 from words import words
 from hangman_visual import lives_visual_dict
 import string
-
-
 def get_valid_word(words):
+  
     word = random.choice(words)  # randomly chooses something from the list
     while '-' in word or ' ' in word:
         word = random.choice(words)

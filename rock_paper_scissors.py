@@ -1,3 +1,12 @@
+"""
+    The code allows the user to play a game of rock-paper-scissors against the computer and determines
+    the winner.
+    :return: The function `play()` returns a string indicating the result of the game. It can return one
+    of the following three strings:
+    - "It's a tie" if the user and computer chose the same option.
+    - "You won!" if the user's choice beats the computer's choice.
+    - "You lost!" if the user's choice loses to the computer's choice.
+    """
 import random
 
 def play():

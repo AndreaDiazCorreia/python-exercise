@@ -1,3 +1,7 @@
+# This code is creating a Mad Libs game using Python. It prompts the user to enter an adjective, two
+# verbs, and a famous person's name. Then, it uses these inputs to create a sentence using string
+# interpolation. Finally, it prints out the completed Mad Libs sentence.
+
 adj = input("Adjective: ")
 verb1 = input("Verb: ")
 verb2 = input("Verb: ")

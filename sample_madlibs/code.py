@@ -1,4 +1,9 @@
+"""
+    The `madlib` function prompts the user for various inputs and then generates a madlib story using
+    those inputs.
+    """
 def madlib():
+ 
     body_part = input("Body Part: ")
     verb = input("Verb: ")
     adj1 = input("Adjective: ")

@@ -1,7 +1,25 @@
+
+"""
+    The code defines a Tic Tac Toe game and allows a human player to play against a smart computer
+    player.
+    
+    :param game: The `game` parameter is an instance of the `TicTacToe` class. It represents the current
+    state of the Tic Tac Toe game
+    :param x_player: The `x_player` parameter is an instance of the `HumanPlayer` class, which
+    represents a human player using the 'X' letter in the game
+    :param o_player: The `o_player` parameter is an instance of the `SmartComputerPlayer` class, which
+    represents the computer player that plays as "O" in the Tic Tac Toe game. This player is a smart
+    computer player, meaning it uses a strategy to make its moves instead of choosing randomly
+    :param print_game: The `print_game` parameter is a boolean flag that determines whether or not to
+    print the game board and moves during the game. If `print_game` is set to `True`, the game board and
+    moves will be printed. If `print_game` is set to `False`, the game will, defaults to True (optional)
+    :return: The code does not explicitly return anything. However, the `play` function returns the
+    letter of the winning player or "It's a tie!" if there is no winner.
+    """
+
 import math
 import time 
 from player import HumanPlayer, RandomComputerPlayer, SmartComputerPLayer
-
 class TicTacToe():
     def __init__(self):
         self.board = self.make_board()
